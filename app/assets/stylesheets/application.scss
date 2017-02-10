@@ -9,6 +9,7 @@
 $base-brown : #916643;
 $dark-brown : #794B26;
 $base-blue : #285757;
+$light-brown : #B68964;
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -65,4 +66,18 @@ hr {
 
 .navbar-header a {
   padding-top: 1.5em;
+}
+
+.my-link {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.my-link:hover {
+  text-decoration: none;
+  color: $light-brown;
+}
+
+input {
+  color: $light-brown;
 }

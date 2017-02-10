@@ -3,7 +3,12 @@
 </div>
 <div class="row">
   <div class="col-md-12">
-    <h3 style='font-size: 2em;'>$<%= @product.price %></h3>
-    <h2 style='font-size: 2em;'><em><%= @product.country %></em></h2>
+    <h3 style='font-size: 2em;'>$<%= @product.price %>/lb.</h3>
+    <h2 style='font-size: 2em;'><em><%= @product.country %></em></h2><br><hr><br><br>
+    <h3><%= link_to "Update This Product", edit_product_path(@product), :class => 'my-link' %></h3>
+    <h3><%= link_to 'Delete This Product', product_path(@product),
+                                            :data => {
+                                              :confirm => 'Are you sure you want to delete this product? Clicking OK will remove it from the database entirely.',
+                                              :method => 'delete' }, :class => 'my-link' %></h3>
   </div>
 </div>

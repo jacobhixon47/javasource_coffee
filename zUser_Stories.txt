@@ -9,5 +9,5 @@ x/2. As a user, I would like to view all products.
 4. As an admin, I would like to see flash errors if i make an error adding/updating/deleting a product.
 5. As an admin, I would like to be able to:
   x/add,
-  update, and
+  x/update, and
   delete products.

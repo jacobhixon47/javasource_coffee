@@ -3,9 +3,11 @@
     <h1>Products</h1>
     <%= link_to "Add New Product", new_product_path %><hr>
     <% @products.each do |product| %>
-    <h3><%= product.name %></h3>
-    <h4>$<%= product.price %>/lb.</h4>
-    <p>Country of Origin: <%= product.country %></p><hr>
+      <%= link_to product_path(product), :class => 'my-link' do %>
+        <h3><%= product.name %></h3>
+        <h4>$<%= product.price %>/lb.</h4>
+        <p>Country of Origin: <%= product.country %></p><hr>
+      <% end %>
     <% end %>
   </div>
 </div>
