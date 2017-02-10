@@ -14,12 +14,21 @@ body {
   background-color: $base-brown;
 }
 
+.banner-container {
+  background: url('coffee-bg.jpg');
+  min-height: 30vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
 .main-cont {
   min-height: 50vh;
   text-align: center;
   border: 2px $base-brown solid;
   border-radius: 10px;
   background-color: #fff;
+  margin-top: 2%;
 }
 
 .navbar {
