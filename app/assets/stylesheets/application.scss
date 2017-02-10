@@ -1,15 +1,51 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
+ *= require_tree .
+ *= require_self
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+$base-brown : #916643;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  background-color: $base-brown;
+}
+
+.main-cont {
+  min-height: 50vh;
+  text-align: center;
+  border: 2px $base-brown solid;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  min-height: 75px;
+  max-height: 75px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navbar-header a, .nav-list, .nav-list li, .nav-list li a {
+  min-height: 75px;
+  max-height: 75px;
+  color: $base-brown !important;
+}
+
+.nav-list li a {
+  padding-top: 1.5em;
+}
+
+.navbar-header a {
+  padding-top: 1.5em;
+}
+
+.title-row {
+  color: $base-brown;
+}

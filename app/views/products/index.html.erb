@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-12 title-row">
+    <h1>Products</h1><hr>
+    <% @products.each do |product| %>
+    <h3><%= product.name %></h3>
+    <h4>$<%= product.price %>/lb.</h4>
+    <p>Country of Origin: <%= product.country %></p><hr>
+    <% end %>
+  </div>
+</div>
