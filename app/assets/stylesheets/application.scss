@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 $base-brown : #916643;
-$light-brown : #794B26;
+$dark-brown : #794B26;
 $base-blue : #285757;
 
 body {
@@ -19,6 +19,10 @@ body {
 
 h1 {
   font-size: 5em;
+}
+
+hr {
+  border-color: $base-brown;
 }
 
 .banner-container {
@@ -34,13 +38,13 @@ h1 {
   text-align: center;
   border: 2px $base-brown solid;
   border-radius: 10px;
-  background-color: $light-brown;
+  background-color: $dark-brown;
   margin-top: 2%;
   color: #ddd;
 }
 
 .navbar {
-  background-color: $light-brown;
+  background-color: $dark-brown;
   border: none;
   border-radius: 0px;
   min-height: 75px;
