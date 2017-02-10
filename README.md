@@ -12,12 +12,12 @@ A simple web application that displays product info and allows complete CRUD/L f
 
 1. _Clone into repository located at https://github.com/jacobhixon47/javasource_coffee ._
 2. _In the terminal, make sure you are inside of the project folder, then type the following commands:_
-  * _$ bundle install_
-  * _$ rake db:create_
-  * _$ rake db:migrate_ _(Note: if this command returns an error, run '$ bundle exec rake db:migrate' instead_
-  * _$ rake db:test:prepare_
-  * _$ rails server_
-3. _visit 'localhost:3000'_
+  * `$ bundle install`
+  * `$ rake db:create`
+  * `$ rake db:migrate` _(Note: if this command returns an error, run `$ bundle exec rake db:migrate` instead_
+  * `$ rake db:test:prepare`
+  * `$ rails server`
+3. visit [localhost:3000](localhost:3000)
 
 ## Technologies Used
 
