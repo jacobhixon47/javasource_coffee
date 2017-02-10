@@ -1,10 +1,13 @@
 <div class="row">
-  <h3>Featured Product</h3>
-</div>
+  <br>
+  <h3>Featured Product</h3><br>
+</div><hr>
 <div class="row">
   <div class="col-md-12">
-    <h1><%= @featured.name %></h1>
-    <h3 style='font-size: 2em;'>$<%= @featured.price %></h3>
-    <h2 style='font-size: 2em;'><em><%= @featured.country %></em></h2>
+    <%= link_to product_path(@featured), :class => 'my-link' do %>
+      <h1><%= @featured.name %></h1>
+      <h3 style='font-size: 2em;'>$<%= @featured.price %></h3>
+      <h2 style='font-size: 2em;'><em><%= @featured.country %></em></h2>
+    <% end %>
   </div>
 </div>
