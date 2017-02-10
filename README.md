@@ -17,7 +17,7 @@ A simple web application that displays product info and allows complete CRUD/L f
   * `$ rake db:migrate` _(Note: if this command returns an error, run `$ bundle exec rake db:migrate` instead_
   * `$ rake db:test:prepare`
   * `$ rails server`
-3. visit [localhost:3000](localhost:3000)
+3. _visit localhost:3000 in your browser_
 
 ## Technologies Used
 
