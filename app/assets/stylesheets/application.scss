@@ -5,7 +5,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
 $base-brown : #916643;
+$light-brown : #794B26;
+$base-blue : #285757;
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -27,12 +30,13 @@ body {
   text-align: center;
   border: 2px $base-brown solid;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: $light-brown;
   margin-top: 2%;
+  color: #bbb;
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: $light-brown;
   border: none;
   border-radius: 0px;
   min-height: 75px;
@@ -44,7 +48,7 @@ body {
 .navbar-header a, .nav-list, .nav-list li, .nav-list li a {
   min-height: 75px;
   max-height: 75px;
-  color: $base-brown !important;
+  color: #bbb !important;
 }
 
 .nav-list li a {
