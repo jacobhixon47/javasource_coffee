@@ -2,12 +2,12 @@
 
 x/1. As a user, I would like to be able to navigate to other pages from the landing page.
 x/2. As a user, I would like to view all products.
-3. As a user, I would like to view info for individual products
+x/3. As a user, I would like to view info for individual products
 
 -- Admin --
 
-4. As an admin, I would like to see flash errors if i make an error adding/updating/deleting a product.
-5. As an admin, I would like to be able to:
+x/4. As an admin, I would like to see flash errors if i make an error adding/updating/deleting a product.
+x/5. As an admin, I would like to be able to:
   x/add,
   x/update, and
-  delete products.
+  x/delete products.

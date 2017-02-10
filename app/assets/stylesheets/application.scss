@@ -81,3 +81,15 @@ hr {
 input {
   color: $light-brown;
 }
+
+#notice-bar {
+  padding: 1%;
+  background-color: #285757;
+  color: #ddd;
+}
+
+#alerts-bar {
+  padding: 1%;
+  background-color: #914343;
+  color: #ddd;
+}

@@ -21,6 +21,17 @@
         <li><a href="#">About</a></li>
       </ul>
     </nav>
+
+    <% if flash[:notice] %>
+      <div id="notice-bar">
+        <%= flash[:notice] %>
+      </div>
+    <% elsif flash[:alert] %>
+      <div id="alert-bar">
+        <%= flash[:alert] %>
+      </div>
+    <% end %>
+
     <div class="container main-cont">
       <%= yield %>
     </div>
