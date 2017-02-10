@@ -42,4 +42,4 @@ This file is part of (JavaSource).
     You should have received a copy of the GNU General Public License
     along with the (JavaSource). If not, see <http://www.gnu.org/licenses/>.
 
-Copyright (c) 2016 **_Michael Andrade, Jacob Hixon, Skye Atwood, Eric Bomblatus_**
+Copyright (c) 2016 **_Jacob Hixon_**
